@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/dp_15"
+    android:paddingBottom="@dimen/dp_10">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/ll_history_time"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_20"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_20"
+            android:text="时        间："
+            android:textColor="@color/custom_gray_1"
+            android:textSize="@dimen/sp_14" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_history_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/custom_black_1"
+            android:textSize="@dimen/sp_14" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/ll_history_hospital"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_20"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_20"
+            android:text="医        院："
+            android:textColor="@color/custom_gray_1"
+            android:textSize="@dimen/sp_14" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_history_hospital"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/custom_black_1"
+            android:textSize="@dimen/sp_14" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/ll_history_device"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_20"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_20"
+            android:text="设        备："
+            android:textColor="@color/custom_gray_1"
+            android:textSize="@dimen/sp_14" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_history_device"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/custom_black_1"
+            android:textSize="@dimen/sp_14" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/ll_history_alarm_time"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_20"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_20"
+            android:text="报警时间："
+            android:textColor="@color/custom_gray_1"
+            android:textSize="@dimen/sp_14" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_history_alarm_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/custom_black_1"
+            android:textSize="@dimen/sp_14" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/ll_history_recovery_time"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_20"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_20"
+            android:text="解除时间："
+            android:textColor="@color/custom_gray_1"
+            android:textSize="@dimen/sp_14" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_history_recovery_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/custom_black_1"
+            android:textSize="@dimen/sp_14" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <View
+        android:id="@+id/view_state"
+        android:layout_width="@dimen/dp_289"
+        android:layout_height="@dimen/dp_1"
+        android:layout_marginTop="@dimen/dp_15"
+        android:layout_marginBottom="@dimen/dp_15"
+        android:background="@color/custom_gray_1" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/ll_history_message"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_20"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_20"
+            android:text="报警内容："
+            android:textColor="@color/custom_gray_1"
+            android:textSize="@dimen/sp_14" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_history_message"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/custom_black_1"
+            android:textSize="@dimen/sp_14" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/ll_history_state"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_20"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_20"
+            android:text="处置情况："
+            android:textColor="@color/custom_gray_1"
+            android:textSize="@dimen/sp_14" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_history_state"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/custom_black_1"
+            android:textSize="@dimen/sp_14" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/ll_history_dispose_man"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_20"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_20"
+            android:text="处置人员："
+            android:textColor="@color/custom_gray_1"
+            android:textSize="@dimen/sp_14" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_history_dispose_man"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/custom_black_1"
+            android:textSize="@dimen/sp_14" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

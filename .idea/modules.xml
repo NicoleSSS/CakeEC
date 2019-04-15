@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CakeEC.iml" filepath="$PROJECT_DIR$/CakeEC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cake_annotations/cake_annotations.iml" filepath="$PROJECT_DIR$/cake_annotations/cake_annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cake_compiler/cake_compiler.iml" filepath="$PROJECT_DIR$/cake_compiler/cake_compiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cake_core/cake_core.iml" filepath="$PROJECT_DIR$/cake_core/cake_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cake_ec/cake_ec.iml" filepath="$PROJECT_DIR$/cake_ec/cake_ec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cake_ui/cake_ui.iml" filepath="$PROJECT_DIR$/cake_ui/cake_ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/example.iml" filepath="$PROJECT_DIR$/example/example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+    </modules>
+  </component>
+</project>

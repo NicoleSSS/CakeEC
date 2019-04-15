@@ -1,0 +1,56 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.jakewharton.butterknife'
+
+android {
+    compileSdkVersion 28
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    tasks.withType(JavaCompile) {
+        options.encoding = "UTF-8"
+    }
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    api project(':cake_core')
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
+    //图片处理
+    api 'com.github.bumptech.glide:glide:4.9.0'
+    api 'com.github.bumptech.glide:okhttp3-integration:4.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+    //RecyclerView依赖
+    api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.46'
+    //RecyclerView分割线
+    api 'com.choices.divider:RecyclerView_Divider:1.0.0'
+    //Google AutoValue
+    api 'com.google.auto.value:auto-value-annotations:1.6.3'
+    annotationProcessor 'com.google.auto.value:auto-value:1.6.3'
+    //Banner依赖，目前不能升级，2.1.4版本的调用与本程序的封装不兼容
+    //noinspection GradleDependency
+    api 'com.bigkoo:convenientbanner:2.0.5'
+    api 'com.ToxicBakery.viewpager.transforms:view-pager-transforms:2.0.24'
+    //View动画依赖
+    api 'com.daimajia.easing:library:2.0@aar'
+    api 'com.daimajia.androidanimations:library:2.3@aar'
+}

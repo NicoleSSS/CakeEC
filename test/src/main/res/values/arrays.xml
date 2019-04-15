@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages">
+        <item>c语言</item>
+        <item>java </item>
+        <item>php</item>
+        <item>xml</item>
+        <item>html</item>
+    </string-array>
+
+    <string-array name="hospital">
+        <item>医院</item>
+    </string-array>
+    <string-array name="device">
+        <item>设备</item>
+    </string-array>
+    <string-array name="start_time">
+        <item>开始时间</item>
+    </string-array>
+    <string-array name="stop_time">
+        <item>结束时间</item>
+    </string-array>
+</resources>

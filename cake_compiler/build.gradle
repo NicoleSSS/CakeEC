@@ -1,0 +1,17 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api 'com.squareup:javapoet:1.10.0'
+    api 'com.google.auto.service:auto-service:1.0-rc3'
+    api 'com.google.auto:auto-common:0.10'
+    api project(':cake_annotations')
+    
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"

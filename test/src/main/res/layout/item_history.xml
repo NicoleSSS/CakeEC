@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/dp_12"
+    android:paddingTop="@dimen/dp_12"
+    android:paddingRight="@dimen/dp_12">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_12">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_history_list"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_105"
+            android:layout_gravity="center"
+            tools:ignore="RtlHardcoded" />
+    </FrameLayout>
+
+    <include layout="@layout/layout_history_content_list"/>
+
+</LinearLayout>
